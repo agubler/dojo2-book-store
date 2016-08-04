@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>dojo2 book store</title>
+	</head>
+	<body>
+		<script src="./../../node_modules/dojo-loader/dist/umd/loader.min.js"></script>
+		<script src="./index.js"></script>
+		<section class="bookstore">
+			<div>book store</div>
+			<widget-projector>
+				<dojo-widget data-options='{"id":"book-store-title","tagName": "h1"}'></dojo-widget>
+				<div is="widget-instance" id="book-store"/>
+			</widget-projector>
+		</section>
+	</body>
+</html>
+
