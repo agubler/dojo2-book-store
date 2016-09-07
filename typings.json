@@ -1,23 +1,13 @@
 {
-	"name": "dojo2-book-store",
+	"name": "dojo2-monster-cards",
 	"dependencies": {
-		"@reactivex/RxJS": "npm:@reactivex/RxJS",
+		"@reactivex/RxJS": "npm:@reactivex/rxjs",
 		"immutable": "npm:immutable",
 		"maquette": "npm:maquette"
 	},
 	"globalDependencies": {
-		"dojo-actions": "npm:dojo-actions",
-		"dojo-app": "npm:dojo-app",
-		"dojo-compose": "npm:dojo-compose",
-		"dojo-core": "npm:dojo-core",
-		"dojo-shim": "npm:dojo-shim",
-		"dojo-has": "npm:dojo-has",
 		"dojo-loader": "npm:dojo-loader",
-		"dojo-routing": "npm:dojo-routing",
-		"dojo-widgets": "npm:dojo-widgets",
 		"es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#6697d6f7dadbf5773cb40ecda35a76027e0783b2",
-		"extra-immutable": "github:dojo/typings/custom/dojo2-extras/immutable.d.ts#004fc065b3b24412c9b6575cdc06545964c370b5",
-		"extra-maquette": "github:dojo/typings/custom/dojo2-extras/maquette.d.ts#004fc065b3b24412c9b6575cdc06545964c370b5",
 		"extra-rxjs": "github:dojo/typings/custom/dojo2-extras/rxjs.d.ts#004fc065b3b24412c9b6575cdc06545964c370b5",
 		"symbol-shim": "github:dojo/typings/custom/symbol-shim/symbol-shim.d.ts#9a0185f465a3febe2bb1ff3f1210f43e5f96c5d2"
 	},
@@ -27,7 +17,6 @@
 	},
 	"globalDevDependencies": {
 		"digdug": "github:dojo/typings/custom/digdug/digdug.d.ts#a62873258aa1deed48f9882c193c335436100d4b",
-		"dojo-loader": "npm:dojo-loader",
 		"dojo2": "github:dojo/typings/custom/dojo2/dojo.d.ts#a62873258aa1deed48f9882c193c335436100d4b",
 		"dojo2-dev": "github:dojo/typings/custom/dev/dev.d.ts#288d3a9868194f0e1ad6687371dffd1d96cb39a1",
 		"gruntjs": "registry:dt/gruntjs#0.4.0+20160316171810",
