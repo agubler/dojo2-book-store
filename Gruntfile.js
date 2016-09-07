@@ -13,12 +13,7 @@ module.exports = function (grunt) {
 		}
 	});
 
-	grunt.registerTask('dev', [
-		'typings',
-		'tslint',
-		'clean:dev',
-		'ts:dev',
-		'copy:staticFiles',
-		'updateTsconfig'
-	]);
+
+
+	grunt.registerTask('dev', grunt.config.get('devTasks').concat(['copy:staticFiles']));
 };
